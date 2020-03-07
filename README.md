@@ -1,30 +1,64 @@
 # django-blog
+Blog created in Django
 
-<code>pip install django</code>
+## Getting started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-<p>Create project folder:</p>
-<code>django-admin startproject django_project</code>
+### Prerequisites
 
-<p>Go to project folder:
-<code>cd django_project</code></p>
+What things you need to install the software and how to install them
 
-Create start app folder:<br>
-<code>python manage.py startapp blog</code>
+```
+pip install django
+```
 
-Initial migrate:<br>
-<code>python manage.py migrate</code>
+### Installing
 
-Create first admin user:<br>
-<code>python manage.py createsuperuser</code>
+A step by step series of examples that tell you how to create project from base.
 
-Run server:<br>
-<code>python manage.py runserver</code>
+Create project folder:
+```
+django-admin startproject django_project
+```
 
-Make migration after every changes in database:<br>
-<code>python manage.py makemigrations</code>
-To see SQL code which will be run in migration:<br>
-<code>python manage.py sqlmigrate blog 0001</code>
-blog = app name<br>
-0001 = migration number<br>
-Then migrate it:<br>
-<code>python manage.py migrate</code>
+Go to project folder:
+```
+cd django_project
+```
+
+Create start app folder:
+```
+python manage.py startapp blog
+```
+
+Initial migrate:
+```
+python manage.py migrate
+```
+
+Create first admin user:
+```
+python manage.py createsuperuser
+```
+
+Run server:
+```
+python manage.py runserver
+```
+
+### Make migration after every change in database:
+To make migration:
+```
+python manage.py makemigrations
+```
+
+To see SQL code which will be run in migration:
+```
+python manage.py sqlmigrate blog 0001
+```
+WHERE blog is app name, 0001 is migration number
+
+Then migrate it:
+```
+python manage.py migrate
+```
