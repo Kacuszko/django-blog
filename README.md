@@ -2,7 +2,7 @@
 
 <code>pip install django</code>
 
-Create project folder:<br>
+<p>Create project folder:</p>
 <code>django-admin startproject django_project</code>
 
 Go to project folder:<br>
