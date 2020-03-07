@@ -8,6 +8,6 @@
 
 <code>python manage.py startapp blog</code>
 
-<code>python manage.py runserver</code>
+<code>python manage.py migrate</code>
 
-That's all at this moment
+<code>python manage.py runserver</code>
