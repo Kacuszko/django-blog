@@ -5,8 +5,8 @@
 <p>Create project folder:</p>
 <code>django-admin startproject django_project</code>
 
-Go to project folder:<br>
-<code>cd django_project</code>
+<p>Go to project folder:
+<code>cd django_project</code></p>
 
 Create start app folder:<br>
 <code>python manage.py startapp blog</code>
