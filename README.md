@@ -11,6 +11,9 @@ What things you need to install the software and how to install them
 ```
 pip install django
 ```
+```
+pip install django-crispy-forms
+```
 
 ### Installing
 
