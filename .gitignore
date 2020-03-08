@@ -1,2 +1,8 @@
 /venv
 /.vscode
+/users/__pycache__
+/blog/__pycache__
+__pycache__
+/__pycache__
+*/__pycache__
+*__pycache__
